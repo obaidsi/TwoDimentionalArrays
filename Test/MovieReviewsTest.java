@@ -11,5 +11,6 @@ class MovieReviewsTest {
         assertEquals(4,mV.getReviewerCount());
         assertEquals(3, mV.getMovieCount());
         assertEquals(8, mV.getRawReview(1, 2));
+        assertEquals("Alice in Blunderland", mV.getMovieTitle(2));
     }
 }
